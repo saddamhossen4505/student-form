@@ -1,0 +1,15 @@
+/* Looding img part start here */
+.loading_img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin: 0, auto;
+    display: block;
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+/* Looding img part ends here */

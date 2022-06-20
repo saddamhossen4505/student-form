@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom and Bom project</title>
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h1 class="text-center">Add new student</h1>
+                        <hr>
+                    </div>
+                    <div class="card-body">
+                        <form id="student_form">
+                            <div class="msg">
+                                
+                            </div>
+                            <div class="my-3">
+                                <label>Name</label>
+                                <input type="text" name="name" class="form-control">
+                            </div>
+                            <div class="my-3">
+                                <label>Email</label>
+                                <input type="text" name="email" class="form-control">
+                                <span class="email_check_field"></span>
+                            </div>
+                            <div class="my-3">
+                                <label>Cell</label>
+                                <input type="text" name="cell" class="form-control">
+                                <span class="cell_field_check"></span>
+                            </div>
+                            <div class="my-3">
+                                <label>Username</label>
+                                <input type="text" name="username" class="form-control">
+                            </div>
+                            <div class="my-3">
+                                <label>Gender</label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="gender" value="male">Male
+                                </label>
+                                <label>
+                                    <input type="radio" name="gender" value="female">Female
+                                </label>
+                            </div>
+                            <img class="loading_img" src="https://media1.giphy.com/media/y1ZBcOGOOtlpC/giphy.gif?cid=ecf05e47h7u0ekq21nzi6surp0e2fg088vo7glz30i2hv2p9&rid=giphy.gif&ct=g" alt="">
+                            <div class="my-3">
+                                <button type="submit" class="btn btn-success btn-sm w-100">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- function.js link -->
+    <script src="./assets/js/function.js"></script>
+    <!-- custom js link -->
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
